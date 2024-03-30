@@ -1,0 +1,20 @@
+{
+  "name": "aliraza_2024-makeby-to-do-app",
+  "version": "1.0.0",
+  "description": "This is a command-line todo application written in TypeScript, allowing users to add, view, mark as completed, and delete tasks interactively.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ali Raza",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.8"
+  }
+}
